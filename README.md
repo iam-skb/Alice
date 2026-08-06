@@ -1,12 +1,12 @@
 markdown
 
-# 🔐 ALICE – Secure Encrypted Chat
+# ALICE – Secure Encrypted Chat
 
 
 
 | Version | Langage | Chiffrement | Statut |
 | :--- | :--- | :--- | :--- |
-| 1.0.0 | Python 3 | X25519 + AES‑256‑GCM (E2EE) | ☠️ Prêt à l’emploi |
+| 1.0.0 | Python 3 | X25519 + AES‑256‑GCM (E2EE) | Prêt à l’emploi |
 
 ---
 
