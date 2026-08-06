@@ -110,8 +110,8 @@ Chiffrement	AES‑256‑GCM (authentifié)
 Confidentialité	Le serveur ne voit que du base64 chiffré
 Historique	Chiffré avec une clé dérivée de l’identifiant
 📁 Structure
-text
 
+---
 Alice/
 ├── src/
 │   ├── crypto.py       # X25519 + AES‑256‑GCM
@@ -119,17 +119,14 @@ Alice/
 │   └── client.py       # Interface terminal
 ├── README.md
 └── requirements.txt
-
+---
 👤 Auteur
-
 TheAnonSpider
 GitHub : https://github.com/theanonspider
+---
 ⚠️ Avertissement
-
 Usage éducatif et de recherche uniquement.
 Toute utilisation non autorisée est illégale.
+---
 📝 Licence
-
 MIT – pour un usage éducatif et open‑source.
-
-Alice – Le chat chiffré ultime.
