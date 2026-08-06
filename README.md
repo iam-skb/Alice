@@ -1,9 +1,17 @@
+markdown
+
 # 🔐 ALICE – Secure Encrypted Chat
 
-**Version :** 1.0.0  
-**Langage :** Python 3  
-**Chiffrement :** X25519 + AES‑256‑GCM (E2EE)  
-**Statut :** ☠️ Prêt à l’emploi
+/ \ | | |_ / | |
+/ _ \ | | | | | | |
+/ ___ | | | | || |
+// __|_|__|
+text
+
+
+| Version | Langage | Chiffrement | Statut |
+| :--- | :--- | :--- | :--- |
+| 1.0.0 | Python 3 | X25519 + AES‑256‑GCM (E2EE) | ☠️ Prêt à l’emploi |
 
 ---
 
@@ -18,13 +26,15 @@ Le serveur central ne fait que relayer les données chiffrées : **il ne peut pa
 
 ## ⚙️ Fonctionnalités
 
-- **Chiffrement E2EE** : échange de clé X25519 + AES‑256‑GCM.
-- **Messages et fichiers chiffrés**.
-- **Interface terminal** : logo, couleurs, commandes slash.
-- **Multi‑clients** : plusieurs utilisateurs peuvent discuter en simultané.
-- **Historique local chiffré** : les logs sont chiffrés avant d’être écrits sur le disque.
-- **Reconnexion automatique** : si le serveur tombe, le client tente de se reconnecter.
-- **Affichage non bloquant** : les messages entrants n’interrompent pas la saisie.
+| Fonctionnalité | Description |
+| :--- | :--- |
+| **Chiffrement E2EE** | Échange de clé X25519 + AES‑256‑GCM |
+| **Messages et fichiers** | Tous les échanges sont chiffrés |
+| **Interface terminal** | Logo, couleurs, commandes slash |
+| **Multi‑clients** | Plusieurs utilisateurs en simultané |
+| **Historique chiffré** | Logs locaux chiffrés sur le disque |
+| **Reconnexion auto** | Reconnexion automatique si le serveur tombe |
+| **Affichage non bloquant** | Les messages n’interrompent pas la saisie |
 
 ---
 
@@ -34,18 +44,22 @@ Client A ←── chiffré E2EE ──► Relais Alice ◄── chiffré E2EE 
 text
 
 
-- **Relais** (`server.py`) : WebSocket, ne stocke rien, ne déchiffre rien.
-- **Client** (`client.py`) : génère une paire de clés, échange la clé publique, chiffre/déchiffre.
+| Composant | Rôle |
+| :--- | :--- |
+| **Relais (`server.py`)** | WebSocket, ne stocke rien, ne déchiffre rien |
+| **Client (`client.py`)** | Génère les clés, chiffre, déchiffre |
 
 ---
 
 ## 📦 Installation
 
 ### Prérequis
+
 - Python ≥ 3.8
 - `pip` (gestionnaire de paquets)
 
 ### 1. Cloner le dépôt
+
 ```bash
 git clone https://github.com/theanonspider/Alice.git
 cd Alice
@@ -55,7 +69,7 @@ bash
 
 python3 -m venv alice_env
 source alice_env/bin/activate  # Linux/macOS
-# ou alice_env\Scripts\activate  # Windows
+# alice_env\Scripts\activate    # Windows
 
 3. Installer les dépendances
 bash
@@ -113,7 +127,8 @@ Alice/
 
 👤 Auteur
 
-TheAnonSpider – GitHub
+TheAnonSpider
+GitHub : https://github.com/theanonspider
 ⚠️ Avertissement
 
 Usage éducatif et de recherche uniquement.
@@ -121,3 +136,5 @@ Toute utilisation non autorisée est illégale.
 📝 Licence
 
 MIT – pour un usage éducatif et open‑source.
+
+Alice – Le chat chiffré ultime.
