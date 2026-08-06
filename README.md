@@ -3,8 +3,6 @@ markdown
 # 🔐 ALICE – Secure Encrypted Chat
 
 
-text
-
 
 | Version | Langage | Chiffrement | Statut |
 | :--- | :--- | :--- | :--- |
