@@ -2,10 +2,7 @@ markdown
 
 # 🔐 ALICE – Secure Encrypted Chat
 
-/ \ | | |_ / | |
-/ _ \ | | | | | | |
-/ ___ | | | | || |
-// __|_|__|
+
 text
 
 
